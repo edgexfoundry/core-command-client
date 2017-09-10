@@ -18,49 +18,22 @@
 
 package org.edgexfoundry.domain;
 
-public class Command {
+import org.edgexfoundry.test.category.RequiresNone;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
-  private String id;
-  private String name;
-  private Get get;
-  private Put put;
+@Category({RequiresNone.class})
+public class CommandTest {
 
-  public String getId() {
-    return id;
-  }
-
-  public void setId(String id) {
-    this.id = id;
-  }
-
-  public String getName() {
-    return name;
-  }
-
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public Get getGet() {
-    return get;
-  }
-
-  public void setGet(Get get) {
-    this.get = get;
-  }
-
-  public Put getPut() {
-    return put;
-  }
-
-  public void setPut(Put put) {
-    this.put = put;
-  }
-
-  @Override
-  public String toString() {
-    return "Command [name=" + name + ", get=" + get + ", put=" + put + ", " + super.toString()
-        + "]";
+  @Test
+  public void testToString() {
+    Command command = new Command();
+    command.toString();
+    command.setGet(null);
+    command.setId(null);
+    command.setName(null);
+    command.setPut(null);
+    command.toString();
   }
 
 }
