@@ -16,7 +16,7 @@
  * @version: 1.0.0
  *******************************************************************************/
 
-package org.edgefoundry.command.client;
+package org.edgexfoundry.command.client;
 
 import java.net.URI;
 import java.util.List;
