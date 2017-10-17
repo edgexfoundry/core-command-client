@@ -22,7 +22,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-import org.edgefoundry.command.client.ConsulDiscoveryClientTemplate;
+import org.edgexfoundry.command.client.ConsulDiscoveryClientTemplate;
 import org.edgexfoundry.controller.CmdClient;
 import org.edgexfoundry.domain.CommandDevice;
 import org.jboss.resteasy.client.jaxrs.ResteasyClient;
