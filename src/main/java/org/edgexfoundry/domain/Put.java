@@ -22,14 +22,14 @@ import java.util.List;
 
 public class Put extends Action {
 
-  private List<String> parameternames;
+  private List<String> parameterNames;
 
-  public List<String> getParameternames() {
-    return parameternames;
+  public List<String> getParameterNames() {
+    return parameterNames;
   }
 
-  public void setParameternames(List<String> parameternames) {
-    this.parameternames = parameternames;
+  public void setParameterNames(List<String> parameterNames) {
+    this.parameterNames = parameterNames;
   }
 
 }
